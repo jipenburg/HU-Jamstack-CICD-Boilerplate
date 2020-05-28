@@ -4,8 +4,8 @@ const fs = require('fs');
 const contentful = require('contentful');
 
 const client = contentful.createClient({
-    space: '', // Insert Contentful Space ID
-    accessToken: '' // Insert Contentful Content Delivery API access token
+    space: 'dzywff7zz83p', // Insert Contentful Space ID
+    accessToken: 'KnDm6XTALkt8nONyrB0I6e0I-pZvYdKBOPE0PsTkDPk' // Insert Contentful Content Delivery API access token
 });
 
 client.getEntries({
